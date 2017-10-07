@@ -15,8 +15,10 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <link href="Content/styles.css" type="text/css" rel="stylesheet"/>
+
 </head>
-<body>
+<body class="bgcolor">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
